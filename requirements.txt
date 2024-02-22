@@ -1,4 +1,4 @@
 # requirements.xt
 snowflake-connector-python
 cffi==1.15.0
-
+urllib3==1.26.9
