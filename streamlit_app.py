@@ -6,7 +6,7 @@ streamlit.title('Zena s Amazing Athleisure Catalog')
 
 
 #connexion à snowflake
-#my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
+my_cnx = snowflake.connector.connect(**streamlit.secrets["snowflake"])
 my_cur = my_cnx.cursor()
 
 #selctionner un tablea de la base de données et la mettre dans une variable nommée ici "my_catalog"
